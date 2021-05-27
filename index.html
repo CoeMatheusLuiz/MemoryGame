@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/icon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>Jogo da Memória!</title>
+</head>
+<body>
+
+        <h1>
+            <img src="./assets/images/csgo.gif" class="gif">
+            Jogo da memória
+            <div id="cont">
+                <h2>Estatísticas</h2>
+                <p id="games"></p>
+                <p id="moves"></p>
+                <p id="right"></p>
+                <p id="wrong"></p>
+            </div>
+        </h1>
+
+        <div id="gameBoard">
+        </div>
+        <div id="gameOver">
+            <div>
+                Parabéns, você completou o jogo!
+                <p id="totalMoves"></p>
+            </div>
+            <button id="restart" onclick="restart()">Restart</button>
+        </div>
+
+    <!-- LINKANDO O SCRIPT -->
+    <script src="./assets/scripts/game.js"></script>
+    <script src="./assets/scripts/script.js"></script>
+
+</body>
+</html>
